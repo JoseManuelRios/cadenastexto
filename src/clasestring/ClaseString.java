@@ -37,6 +37,17 @@ public class ClaseString {
         System.out.println("Nuevo: "+nuevo);
         System.out.println("Nuevo2: "+nuevo2);
         
+        //Devuelve el índice dentro de la cadena de la primera aparición a buscar
+        int indice=nuevo.indexOf("mar");
+        System.out.println("Indice: "+indice);
+        
+        indice=nuevo.indexOf("ran", 10);
+        System.out.println("Indice: "+indice);
+        
+        //Métodos equals y equalsIgnoreCase
+        System.out.println("Igualdad de Java y java: "+"Java".equals("java"));
+        System.out.println("Igualdad de Java y java: "+"Java".equalsIgnoreCase("java"));
+        
     }
     
 }
